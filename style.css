@@ -1,0 +1,562 @@
+@font-face {
+    font-family:Voltaire;
+    src: url(Voltaire-Regular.woff) format("woff");
+    
+}
+html, body {
+  min-height: 100%;
+}
+
+
+body
+{
+  background-image: url("img/backround2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1700px 730px;
+}
+
+.top_part
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 1920px;
+    height: 150px;
+    border: 5px solid #004f93;
+    background-color: #f2cb13;
+    z-index: 1;
+    
+    
+}
+.frf_logo
+{
+    position: absolute;
+    float: right;
+    right: 70px;
+    top: 20px;
+    
+    
+    
+}
+.header_logo
+{
+   position:absolute;
+   float:left;
+   top:23px;
+   left:150px;
+    
+}
+
+.menu_frame
+{
+    position:relative;
+    top:10px;
+    right:30px;
+    display:flex;
+    justify-content: center;
+    object-fit: contain;
+    gap:100px;
+    font-family: Voltaire;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.nav_item
+{
+    text-decoration:none;
+    list-style-type: none;
+    display:inline ;
+    
+    
+   
+    
+}
+.nav_link {
+    text-decoration: none;
+    padding: 30px 30px;
+    color: #ffff   ;
+}
+
+.nav_link:hover
+{
+    background-color:#e1b72b ;
+    border:1px solid white;
+    border-radius: 10%;
+    color: black;
+}
+
+.nav_link:active
+{
+    color: #f2cb13;
+}
+
+.dropbtn
+{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: large;
+    text-transform: uppercase;
+    width: 140px;
+    height: 80px;
+    position: relative;
+    bottom:27px;
+    color: #ffff   ;
+    
+    
+    
+}
+
+.dropbtn:hover
+{
+    background-color:#e1b72b ;
+    border:1px solid white;
+    border-radius: 10%;
+    color: black;
+}
+
+
+  .dropdown-content {
+    display: none;
+    border-radius: 10%;
+    position: relative;
+    bottom:20px;
+    right: 20px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  .dropdown-content a:hover {
+    background-color: #e1b72b ;
+    border-radius: 10%;
+  }
+
+  .drop_down:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a:active
+{
+    color: #f2cb13;
+}
+
+.logoutbtn
+{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    top:60px;
+    float:right;
+    font-family:Voltaire;
+    font-size: larger;
+    color:white;
+    background-color: #f2cb13;
+    border:0px;
+    z-index: 1;
+    text-transform: uppercase;
+    
+    
+}
+.logoutbtn:hover {
+    background-color:#e1b72b ;
+    border:1px solid white;
+    border-radius: 10%;
+    color: black;
+    
+  }
+
+  .logoutbtn a
+  {
+    box-sizing: border-box;
+    width: 100px;
+    height: 40px;
+    color:white;
+    text-decoration: none;
+  }
+  .logoutbtn a:hover
+  {
+    color: black;
+  }
+
+  .welcome_user
+  {
+    display: inline;
+    width: 100px;
+    font-family:Voltaire;
+    position: relative;
+    top:100px;
+    
+    
+  }
+  .welcome_text
+  {
+    position:relative;
+    left:30px;
+    width: 100px;
+    top:10px;
+    
+
+  }
+  .avatar
+  {
+    display: inline;
+    position:absolute;
+  }
+  
+
+
+
+
+.banner
+{
+    position: relative;
+    top:165px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 1920px;
+    height: 500px;
+    background-color: #004f93;
+    z-index: -1;
+    
+    
+    
+}
+
+.banner_img
+{
+    position: relative;
+    top: 20px;;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto ;
+    margin-bottom: auto ;
+    width: 50%;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+  
+   
+
+}
+
+.Despre_noi_container
+{
+    
+    position: relative;
+    top:200px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 1920px;
+    height: 650px;
+    
+    z-index: -1;
+    
+
+}
+
+h1
+{
+    font-family: Voltaire;
+    font-weight: 600;
+    font-size: 300%;
+}
+h3
+{
+    font-family: Voltaire;
+    font-weight: 400;
+    font-size: 150%;
+}
+
+
+.Despre_noi_textbox
+{
+    font-family:Voltaire;
+    font-size: larger;
+    width: 1000px;
+    margin: auto;
+    
+}
+
+.Urare_textbox
+{
+    position: relative;
+    margin: auto;
+    width: 50%;
+}
+
+.dn_hagi
+{
+    position: relative;
+    left: 100px;
+    top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dn_ro94
+{
+    position: relative;
+    left: 350px;
+    top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dn_steaua
+{
+    position: relative;
+    left: 600px;
+    top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.Regulament_container
+{
+    
+    position: relative;
+    top:200px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 1920px;
+    height: 550px;
+    
+    z-index: -1;
+
+}
+.Regulament_textbox
+{
+    font-family:Voltaire;
+    font-size: larger;
+    width: 1300px;
+    margin: auto;
+}
+
+/* (A) LIGHTBOX BACKGROUND */
+#lightbox {
+    /* (A1) COVERS FULLSCREEN */
+    position: absolute; z-index: 999;
+    top: 30; left: 0;
+    width: 30vw; height: 30vh;
+   
+    /* (A2) BACKGROUND */
+    background: rgba(0, 0, 0, 0.5);
+   
+    /* (A3) CENTER IMAGE ON SCREEN */
+    display: block;
+    align-items: center;
+    align-items: center;
+   
+    /* (A4) HIDDEN BY DEFAULT */
+    visibility: hidden;
+    opacity: 0;
+   
+    /* (A5) SHOW/HIDE ANIMATION */
+    transition: opacity ease 0.4s;
+  }
+   
+  /* (A6) TOGGLE VISIBILITY */
+  #lightbox.show {
+    visibility: visible;
+    opacity: 1;
+  }
+   
+  /* (B) LIGHTBOX IMAGE */
+  #lightbox img {
+    /* (B1) DIMENSIONS */
+    width: 100%;
+    height: auto;
+   
+    /* (B2) IMAGE FIT */
+    /* contain | cover | fill | scale-down */
+    object-fit: cover;
+  }
+   
+
+.Tricouri_container
+{
+    
+    position: relative;
+    top:200px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 1920px;
+    height: 550px;
+    z-index: -1;
+
+}
+
+.Tricouri_section
+{
+    height:1900px;
+}
+
+.Tricouri_container img
+{
+    
+    border-radius: 10px;
+    border:1px solid #004f93;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.t_hagi
+{
+    max-width: 1920px;
+    height:300px;
+}
+.description
+{
+    position: relative;
+   
+    left:100px;
+    bottom:200px;
+    font-family:Voltaire;
+    font-size: larger;
+    width: 300px;
+    margin: auto;
+}
+.product_container
+{
+  position: relative;
+  bottom: 220px;
+  width: 200px;
+  float: right;
+}
+.product
+{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  
+
+  width: inherit;
+
+}
+
+.Stickere_section
+{
+  position: relative;
+  top:200px;
+  height:1400px;
+ 
+}
+.Stickere_section img
+{
+    
+    border-radius: 10px;
+    border:1px solid #004f93;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.Obiecte_section
+{
+  position: relative;
+  top:200px;
+  height:1400px;
+ 
+}
+.Obiecte_section img
+{
+    
+    border-radius: 10px;
+    border:1px solid #004f93;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.product-container-first
+{
+  position: relative;
+  bottom:4500px;
+  float:right;
+  
+}
+.product-container-next
+{
+  position: relative;
+  bottom:2600px;
+  float:right;
+  left:230px;
+  
+}
+
+.product-container-last
+{
+  position: relative;
+  float:right;
+  bottom: 1150px;
+  left:470px;
+  
+  
+}
+
+
+
+.product{
+
+   margin-bottom:200px ;
+   margin-top:200px ;
+   font-family:Voltaire;
+
+}
+.steaua_76
+{
+  position: relative;
+   bottom:100px;
+}
+.robanana
+{
+  position: relative;
+   bottom:200px;
+
+}
+.steaua_86
+{
+  position: relative;
+   bottom:300px;
+}
+
+.popescu98
+{
+  position: relative;
+   bottom:100px;
+}
+.ro
+{
+  position: relative;
+   bottom:200px;
+}
+.ro08
+{
+  position: relative;
+   bottom:300px;
+}
+.ghete
+{
+  position: relative;
+   bottom:150px;
+}
+.arges
+{
+  position: relative;
+   bottom:250px;
+}
+
+.craiova
+{
+  position: relative;
+   bottom:380px;
+}
+
+
